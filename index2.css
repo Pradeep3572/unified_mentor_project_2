@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        background-image: url('ww.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-attachment: fixed; 
+        margin: 0;
+        height: 100vh; 
+    
+    
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    background-color: #deb887;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#taskInput {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #ffa07a;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff7f50;
+}
+
+#taskList {
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 0;
+    list-style: none;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#taskList li button {
+    margin: 0 5px;
+    padding: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#taskList li button:hover {
+    background-color: #45a049;
+}
+
+#taskList li button.remove {
+    background-color: #ff4d4d;
+}
+
+#taskList li button.remove:hover {
+    background-color: #ff1a1a;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+#taskList li button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#taskList li button:hover {
+    background-color: #45a049;
+}
+
+#taskList li button.remove {
+    background-color: #ff4d4d;
+}
+
+#taskList li button.remove:hover {
+    background-color: #ff1a1a;
+}
